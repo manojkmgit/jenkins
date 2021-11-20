@@ -7,9 +7,13 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
 1. EC2 Centos  Instance 
    - With Internet Access
    - Security Group with Port `8080` open for internet
+
 1. Java v1.8.x 
 
 ## Install Java
+Update the OS
+yum update -y
+
 We will be using open java for our demo, Get latest version from http://openjdk.java.net/install/
 ```sh
 yum -y install java-1.8*
