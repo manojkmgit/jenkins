@@ -72,7 +72,7 @@ http://YOUR-SERVER-PUBLIC-IP:8080
 - `Dashboard` > `Manage Jenkins` > `Manage Users` > `Create User` > Create another admin user id
 
 ### Test Jenkins Jobs
-1. Create “new item”
+1. `Dashboard` > `New item`
 1. Enter an item name – `My-First-Project`
    - Chose `Freestyle` project
 1. Under Build section
