@@ -68,7 +68,7 @@ http://YOUR-SERVER-PUBLIC-IP:8080
 - Change admin password
   - `Admin` > `Configure` > `Password`
 - Configure `java` path
-  - `Manage Jenkins` > `Global Tool Configuration` > `JDK`  
+  - `Dashboard` > `Manage Jenkins` > `Global Tool Configuration` > `JDK`  
 - Create another admin user id
 
 ### Test Jenkins Jobs
