@@ -32,7 +32,7 @@ echo 'export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.312.b07-1.el7_9.x86
 echo 'PATH=$PATH:$JAVA_HOME' >> ~/.bash_profile
 echo 'export PATH' >> ~/.bash_profile
 ```
-# To set it permanently update your .bash_profile
+### To set it permanently update your .bash_profile
 
 ```sh
 ~/.bash_profile
