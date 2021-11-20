@@ -13,12 +13,12 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
 ## Install Java
 Update the OS
 
-```yum update -y```
+```sudo yum update -y```
 
 We will be using open java for our demo, Get latest version from http://openjdk.java.net/install/
 ```sh
-yum -y install java-1.8*
-#yum -y install java-1.8.0-openjdk
+sudo yum -y install java-1.8*
+#sudo yum -y install java-1.8.0-openjdk
 ```
 
 ### Confirm Java Version
@@ -26,13 +26,17 @@ Lets install java and set the java home
 ```sh
 java -version
 find /usr/lib/jvm/java-1.8* | head -n 3
-#JAVA_HOME=
-export JAVA_HOME
-PATH=$PATH:$JAVA_HOME
-# To set it permanently update your .bash_profile
-source ~/.bash_profile
+#Add JAVA_HOME and update of PATH to ~/.bash_profile
+#example value set below
+echo 'export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.312.b07-1.el7_9.x86_64' >> ~/.bash_profile
+echo 'PATH=$PATH:$JAVA_HOME' >> ~/.bash_profile
+echo 'export PATH' >> ~/.bash_profile
 ```
-_The output should be something like this,_
+# To set it permanently update your .bash_profile
+
+```sh
+~/.bash_profile
+```
 ```
 [root@~]# java -version
 openjdk version "1.8.0_151"
