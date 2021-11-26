@@ -49,6 +49,7 @@ OpenJDK 64-Bit Server VM (build 25.151-b12, mixed mode)
 You can install jenkins using the rpm or by setting up the repo. We will setup the repo so that we can update it easily in future.
 Get latest version of jenkins from https://pkg.jenkins.io/redhat-stable/
 ```sh
+sudo su
 yum install epel-release -y
 yum -y install wget
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
