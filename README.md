@@ -89,7 +89,7 @@ http://YOUR-SERVER-PUBLIC-IP:8080
 1. Under Build section
 	Execute shell : echo "Welcome to Jenkins Demo"
 1. Save your job 
-1. Build job
+1. Click on Build Now
 1. Check "console output"
 
 ### Next Step
