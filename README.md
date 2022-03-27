@@ -4,7 +4,7 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
 
 
 ### Prerequisites
-1. EC2 Centos  Instance 
+1. EC2 Centos Instance 
    - With Internet Access
    - Security Group with Port `8080` open for internet
 
